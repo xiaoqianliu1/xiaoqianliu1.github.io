@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>刘晓倩 讲师 — 兰州交通大学</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy:       #0d1b2a;
+            --navy-mid:   #1b2d42;
+            --gold:       #b8973a;
+            --gold-light: #d4af57;
+            --gold-pale:  #f5eedc;
+            --cream:      #faf8f4;
+            --white:      #ffffff;
+            --text-dark:  #1a1a2e;
+            --text-body:  #3a3a4a;
+            --text-muted: #7a7a8a;
+            --border:     #e8e4d9;
+            --red-accent: #8b1a2a;
+            --shadow-sm:  0 2px 12px rgba(13,27,42,0.06);
+            --shadow-md:  0 8px 32px rgba(13,27,42,0.10);
+            --shadow-lg:  0 20px 60px rgba(13,27,42,0.14);
+            --r:          14px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; outline: none; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+
+        body {
+            font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            color: var(--text-body);
+            /* warm parchment base */
+            background-color: #f0ebe0;
+            /* layered texture: fine grain noise + subtle line ruling + warm tint */
+            background-image:
+                url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.07'/%3E%3C/svg%3E"),
+                repeating-linear-gradient(
+                    180deg,
+                    transparent,
+                    transparent 27px,
+                    rgba(180,160,120,0.07) 27px,
+                    rgba(180,160,120,0.07) 28px
+                ),
+                linear-gradient(160deg, #f5ede0 0%, #ede4d3 40%, #e8dfc8 100%);
+            background-attachment: fixed, fixed, fixed;
+            background-size: 400px 400px, 100% 28px, cover;
+            line-height: 1.85;
+            min-height: 100vh;
+        }
+        header, .page-wrap, footer { position: relative; z-index: 1; }
+
+        /* ── HEADER ──────────────────────────────── */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(250,248,244,0.92);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-family: 'EB Garamond', 'Noto Serif SC', serif;
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--navy);
+            letter-spacing: 0.5px;
+            text-decoration: none;
+        }
+        .logo-divider {
+            width: 1px;
+            height: 18px;
+            background: var(--gold);
+            opacity: 0.6;
+        }
+        .logo-cn {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+        }
+
+        nav { display: flex; align-items: center; gap: 4px; }
+        nav a {
+            text-decoration: none;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            font-weight: 400;
+            padding: 6px 14px;
+            border-radius: 6px;
+            letter-spacing: 0.5px;
+            transition: all 0.25s;
+            white-space: nowrap;
+        }
+        nav a:hover { color: var(--navy); background: rgba(13,27,42,0.05); }
+        nav a.active { color: var(--red-accent); font-weight: 500; }
+
+        /* ── LAYOUT ──────────────────────────────── */
+        .page-wrap {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 50px 24px 80px;
+            display: grid;
+            grid-template-columns: 290px 1fr;
+            gap: 36px;
+            align-items: start;
+        }
+
+        /* ── SIDEBAR ─────────────────────────────── */
+        .sidebar { position: sticky; top: 84px; }
+
+        .profile-card {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: var(--r);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+
+        .profile-header-bg {
+            height: 90px;
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 60%, #243b55 100%);
+            position: relative;
+        }
+        .profile-header-bg::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='1' cy='1' r='1' fill='rgba(255,255,255,0.04)'/%3E%3C/svg%3E") repeat;
+        }
+
+        .profile-body { padding: 0 28px 28px; text-align: center; }
+
+        .avatar-wrap {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid var(--white);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+            overflow: hidden;
+            margin: -50px auto 16px;
+            position: relative;
+            background: #e8e4d9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .avatar-wrap svg { fill: #b0aaa0; width: 56px; height: 56px; }
+        .avatar-wrap img { width: 100%; height: 100%; object-fit: cover; }
+
+        .prof-name {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.7rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            letter-spacing: 2px;
+            line-height: 1.2;
+        }
+        .prof-sub {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin: 6px 0 18px;
+            letter-spacing: 0.5px;
+        }
+        .prof-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--gold-pale);
+            border: 1px solid rgba(184,151,58,0.3);
+            color: var(--gold);
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
+        }
+
+        .contact-list {
+            border-top: 1px solid var(--border);
+            padding-top: 18px;
+            text-align: left;
+        }
+        .contact-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 7px 0;
+            font-size: 0.83rem;
+            color: var(--text-body);
+        }
+        .contact-row + .contact-row {
+            border-top: 1px solid rgba(232,228,217,0.5);
+        }
+        .contact-label {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            min-width: 36px;
+            padding-top: 2px;
+            letter-spacing: 0.3px;
+        }
+        .contact-val a { color: var(--red-accent); text-decoration: none; }
+        .contact-val a:hover { text-decoration: underline; }
+
+        .qr-block {
+            margin-top: 18px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        .qr-block img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            opacity: 0.85;
+        }
+        .qr-block small { display: block; font-size: 0.72rem; color: var(--text-muted); margin-top: 6px; }
+
+        /* ── MAIN CONTENT ────────────────────────── */
+        .main-content { display: flex; flex-direction: column; gap: 28px; }
+
+        section {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: var(--r);
+            padding: 36px 40px;
+            box-shadow: var(--shadow-sm);
+            scroll-margin-top: 84px;
+            transition: box-shadow 0.3s;
+        }
+        section:hover { box-shadow: var(--shadow-md); }
+
+        /* ── SECTION TITLE ───────────────────────── */
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 28px;
+        }
+        .section-title-text {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            letter-spacing: 1px;
+        }
+        .title-line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(to right, var(--border), transparent);
+        }
+        .title-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--gold);
+            flex-shrink: 0;
+        }
+
+        /* ── ABOUT ───────────────────────────────── */
+        .about-text {
+            font-size: 0.975rem;
+            color: var(--text-body);
+            text-align: justify;
+            line-height: 2;
+            letter-spacing: 0.2px;
+        }
+
+        .stat-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-top: 24px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+        .stat-item {
+            text-align: center;
+            padding: 16px 10px;
+            border-radius: 10px;
+            background: var(--cream);
+            border: 1px solid var(--border);
+        }
+        .stat-num {
+            font-family: 'EB Garamond', serif;
+            font-size: 2rem;
+            font-weight: 600;
+            color: var(--red-accent);
+            line-height: 1;
+        }
+        .stat-label {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        /* ── TABS ────────────────────────────────── */
+        .tab-nav {
+            display: flex;
+            gap: 0;
+            border-bottom: 1.5px solid var(--border);
+            margin-bottom: 28px;
+        }
+        .tab-btn {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            padding: 10px 22px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -1.5px;
+            transition: all 0.25s;
+            letter-spacing: 0.5px;
+            background: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        .tab-btn:hover { color: var(--text-dark); }
+        .tab-btn.active {
+            color: var(--red-accent);
+            border-bottom-color: var(--red-accent);
+            font-weight: 600;
+        }
+        .tab-content { display: none; animation: fadeUp 0.4s ease; }
+        .tab-content.active { display: block; }
+
+        /* ── TIMELINE ────────────────────────────── */
+        .timeline { position: relative; padding-left: 28px; }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 5px; top: 8px; bottom: 8px;
+            width: 1px;
+            background: linear-gradient(to bottom, var(--gold), transparent);
+        }
+        .tl-item {
+            position: relative;
+            padding-bottom: 28px;
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            gap: 16px;
+            align-items: start;
+        }
+        .tl-item:last-child { padding-bottom: 0; }
+        .tl-item::before {
+            content: '';
+            position: absolute;
+            left: -23px;
+            top: 7px;
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: var(--white);
+            border: 2px solid var(--gold);
+            box-shadow: 0 0 0 3px rgba(184,151,58,0.15);
+        }
+        .tl-date {
+            font-family: 'EB Garamond', serif;
+            font-size: 0.88rem;
+            color: var(--gold);
+            font-weight: 500;
+            letter-spacing: 0.3px;
+            padding-top: 1px;
+        }
+        .tl-body { font-size: 0.92rem; color: var(--text-body); }
+        .tl-body strong { color: var(--text-dark); font-weight: 600; }
+        .tl-sub { font-size: 0.8rem; color: var(--text-muted); margin-top: 3px; }
+
+        /* ── PAPERS ──────────────────────────────── */
+        .subsec-title {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            letter-spacing: 0.5px;
+            margin: 28px 0 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .subsec-title::before {
+            content: '';
+            width: 3px;
+            height: 14px;
+            background: var(--red-accent);
+            border-radius: 2px;
+        }
+
+        /* year-group accordion */
+        .year-group { margin-bottom: 6px; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+        .year-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 11px 18px;
+            cursor: pointer;
+            background: var(--cream);
+            user-select: none;
+            transition: background 0.2s;
+        }
+        .year-header:hover { background: #ede8de; }
+        .year-header.open { background: var(--navy); color: var(--white); }
+        .year-label {
+            font-family: 'EB Garamond', serif;
+            font-size: 1.05rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: inherit;
+        }
+        .year-header.open .year-label { color: var(--gold-light); }
+        .year-count {
+            font-size: 0.72rem;
+            padding: 2px 9px;
+            border-radius: 20px;
+            background: rgba(13,27,42,0.08);
+            color: var(--text-muted);
+            font-weight: 600;
+            margin-left: 10px;
+        }
+        .year-header.open .year-count { background: rgba(255,255,255,0.15); color: rgba(255,255,255,0.7); }
+        .year-chevron {
+            width: 16px; height: 16px;
+            transition: transform 0.3s;
+            opacity: 0.5;
+            flex-shrink: 0;
+        }
+        .year-header.open .year-chevron { transform: rotate(180deg); opacity: 0.9; }
+        .year-body {
+            display: none;
+            padding: 4px 0 8px;
+            background: var(--white);
+            animation: fadeUp 0.3s ease;
+        }
+        .year-body.open { display: block; }
+        /* paper rows inside accordion */
+        .paper-list { list-style: none; }
+        .paper-item {
+            display: grid;
+            grid-template-columns: 32px 1fr;
+            gap: 0 10px;
+            align-items: baseline;
+            padding: 8px 18px;
+            border-bottom: 1px solid rgba(232,228,217,0.5);
+            transition: background 0.15s;
+        }
+        .paper-item:last-child { border-bottom: none; }
+        .paper-item:hover { background: #faf8f4; }
+        .paper-num {
+            font-family: 'EB Garamond', serif;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            text-align: right;
+            padding-top: 2px;
+        }
+        .paper-body { }
+        .paper-title { font-size: 0.875rem; font-weight: 500; color: var(--text-dark); line-height: 1.5; }
+        .paper-meta { font-size: 0.78rem; color: var(--text-muted); font-style: italic; margin-top: 3px; }
+        .paper-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px; }
+        
+        .tag {
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 2px 10px;
+            border-radius: 20px;
+            letter-spacing: 0.3px;
+        }
+        .tag-sci { background: #EBF4FF; color: #1A5FB4; border: 1px solid rgba(26,95,180,0.2); }
+        .tag-ei  { background: #FFF4E0; color: #B5601A; border: 1px solid rgba(181,96,26,0.2); }
+        .tag-ccf { background: #F0F9F0; color: #2E7D32; border: 1px solid rgba(46,125,50,0.2); }
+        .tag-if  { background: #FAF0FF; color: #6A1B9A; border: 1px solid rgba(106,27,154,0.2); }
+
+        .project-item {
+            padding: 14px 18px;
+            border-left: 3px solid var(--gold);
+            background: var(--cream);
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 10px;
+            font-size: 0.88rem;
+            line-height: 1.7;
+            color: var(--text-body);
+        }
+
+        /* ── COURSES ─────────────────────────────── */
+        .course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+        .course-card {
+            padding: 22px 20px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: var(--cream);
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        .course-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--red-accent), var(--gold));
+        }
+        .course-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-3px);
+        }
+        .course-name { font-family: 'Noto Serif SC', serif; font-size: 1rem; font-weight: 700; color: var(--text-dark); }
+        .course-type { font-size: 0.78rem; color: var(--text-muted); margin: 6px 0 10px; }
+        .course-sem {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.75rem;
+            color: var(--gold);
+            background: var(--gold-pale);
+            border: 1px solid rgba(184,151,58,0.2);
+            padding: 3px 10px;
+            border-radius: 20px;
+        }
+
+        /* ── RECRUIT ─────────────────────────────── */
+        .recruit-card {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+            border-radius: 12px;
+            padding: 32px 36px;
+            color: rgba(255,255,255,0.88);
+            position: relative;
+            overflow: hidden;
+        }
+        .recruit-card::after {
+            content: '"';
+            position: absolute;
+            right: 20px;
+            bottom: -30px;
+            font-family: 'EB Garamond', serif;
+            font-size: 14rem;
+            color: rgba(255,255,255,0.04);
+            line-height: 1;
+        }
+        .recruit-title {
+            font-family: 'Noto Serif SC', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+        .recruit-text { font-size: 0.88rem; line-height: 1.9; margin-bottom: 18px; }
+        .recruit-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+        .req-tag {
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: rgba(255,255,255,0.85);
+            font-size: 0.78rem;
+            padding: 4px 14px;
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
+        }
+        .recruit-email {
+            font-size: 0.85rem;
+            color: var(--gold-light);
+            opacity: 0.9;
+        }
+        .recruit-email a { color: var(--gold-light); text-decoration: none; }
+        .recruit-email a:hover { text-decoration: underline; }
+
+        /* ── STUDENTS ────────────────────────────── */
+        .student-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 20px;
+        }
+        .student-card { text-align: center; }
+        .student-photo {
+            width: 100%;
+            aspect-ratio: 3/4;
+            border-radius: 10px;
+            background: var(--cream);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #c0b9ae;
+            font-size: 0.78rem;
+            margin-bottom: 10px;
+            overflow: hidden;
+            transition: all 0.3s;
+            font-family: 'EB Garamond', serif;
+        }
+        .student-card:hover .student-photo {
+            box-shadow: var(--shadow-md);
+            border-color: var(--gold);
+        }
+        .student-name { font-size: 0.88rem; font-weight: 600; color: var(--text-dark); }
+        .student-grade { font-size: 0.76rem; color: var(--text-muted); margin-top: 3px; }
+
+        /* ── FOOTER ──────────────────────────────── */
+        footer {
+            text-align: center;
+            padding: 36px 24px;
+            color: var(--text-muted);
+            font-size: 0.8rem;
+            border-top: 1px solid var(--border);
+            background: var(--white);
+            line-height: 2;
+            letter-spacing: 0.3px;
+        }
+        footer span { color: var(--gold); }
+
+        /* ── ANIMATIONS ──────────────────────────── */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(10px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+        section { animation: slideIn 0.5s ease both; }
+        section:nth-child(1) { animation-delay: 0.05s; }
+        section:nth-child(2) { animation-delay: 0.10s; }
+        section:nth-child(3) { animation-delay: 0.15s; }
+        section:nth-child(4) { animation-delay: 0.20s; }
+        section:nth-child(5) { animation-delay: 0.25s; }
+        section:nth-child(6) { animation-delay: 0.30s; }
+
+        /* ── RESPONSIVE ──────────────────────────── */
+        @media (max-width: 860px) {
+            .page-wrap {
+                grid-template-columns: 1fr;
+                padding: 20px 16px 60px;
+                gap: 20px;
+            }
+            .sidebar { position: static; }
+            header { padding: 0 16px; height: auto; flex-direction: column; gap: 0; }
+            .logo { padding: 14px 0 10px; }
+            nav { padding: 0 0 12px; gap: 2px; flex-wrap: wrap; justify-content: center; }
+            nav a { font-size: 0.8rem; padding: 5px 10px; }
+            section { padding: 24px 22px; }
+            .tl-item { grid-template-columns: 1fr; gap: 4px; }
+            .stat-row { grid-template-columns: repeat(3,1fr); gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ─── HEADER ──────────────────────────────────── -->
+<header>
+    <div class="logo">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="opacity:0.6"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6L23 9zM18.37 17L12 20.45 5.63 17l-.63-.36V11.87l7 3.82 7-3.82V16.64l-.63.36z"/></svg>
+        <span>LZJTU</span>
+        <div class="logo-divider"></div>
+        <span class="logo-cn">兰州交通大学</span>
+    </div>
+    <nav id="navbar">
+        <a href="#about">简介</a>
+        <a href="#experience">经历</a>
+        <a href="#research">科研</a>
+        <a href="#teaching">教学</a>
+        <a href="#admission">招生</a>
+        <a href="#students">团队</a>
+    </nav>
+</header>
+
+<!-- ─── MAIN LAYOUT ──────────────────────────────── -->
+<div class="page-wrap">
+
+    <!-- ── SIDEBAR ───────────────────────────────── -->
+    <aside class="sidebar">
+        <div class="profile-card">
+            <div class="profile-header-bg"></div>
+            <div class="profile-body">
+                <div class="avatar-wrap">
+                    <!-- <img src="lxq.jpg" alt="刘晓倩"> -->
+                    <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                </div>
+                <div class="prof-name">刘晓倩</div>
+                <div class="prof-sub">LIU Xiaoqian</div>
+                <div class="prof-badge">
+                    <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.5l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z"/></svg>
+                    讲师 · 硕士生导师
+                </div>
+
+                <div class="contact-list">
+                    <div class="contact-row">
+                        <span class="contact-label">邮箱</span>
+                        <span class="contact-val"><a href="mailto:liuxiaoqian@lzjtu.edu.cn">liuxiaoqian@lzjtu.edu.cn</a></span>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-label">电话</span>
+                        <span class="contact-val">0931-4955755</span>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-label">QQ</span>
+                        <span class="contact-val">1475973011</span>
+                    </div>
+                    <div class="contact-row">
+                        <span class="contact-label">地址</span>
+                        <span class="contact-val" style="font-size:0.8rem;line-height:1.6">甘肃省兰州市安宁区<br>兰州交通大学励志楼 707</span>
+                    </div>
+                </div>
+
+                <div class="qr-block">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=mailto:liuxiaoqian@lzjtu.edu.cn" alt="Contact QR">
+                    <small>扫码联系</small>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- ── MAIN ───────────────────────────────────── -->
+    <main class="main-content">
+
+        <!-- 个人简介 -->
+        <section id="about">
+            <div class="section-title">
+                <div class="title-dot"></div>
+                <span class="section-title-text">个人简介</span>
+                <div class="title-line"></div>
+            </div>
+            <p class="about-text">
+                刘晓倩，兰州交通大学电子与信息工程学院讲师，长期从事<strong>时间序列分析、因果学习、进化计算、不确定性人工智能</strong>等相关研究。在 IEEE TFS、KBS、ASC、自动化学报、CVPR、WACV 等国内外顶级学术期刊或会议上发表学术论文 10 余篇。主持或参加多项科研项目，包括中央高校基本科研业务费项目、国家自然科学基金项目，科技部重点研发计划项目、国家重点实验室项目等。获得软件著作权 5 项，发明专利 3 项。ACM、CCF 专业会员，担任 TFS、TCYB、TNNLS、NN 等多个学术期刊审稿人。
+            </p>
+            <div class="stat-row">
+                <div class="stat-item">
+                    <div class="stat-num">10+</div>
+                    <div class="stat-label">学术论文</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">5</div>
+                    <div class="stat-label">软件著作权</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">3</div>
+                    <div class="stat-label">发明专利</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 履历背景 -->
+        <section id="experience">
+            <div class="section-title">
+                <div class="title-dot"></div>
+                <span class="section-title-text">履历背景</span>
+                <div class="title-line"></div>
+            </div>
+            <div class="tab-nav">
+                <button class="tab-btn active" onclick="switchTab(event,'edu')">学习经历</button>
+                <button class="tab-btn" onclick="switchTab(event,'work')">工作经历</button>
+            </div>
+            <div id="edu" class="tab-content active">
+                <div class="timeline">
+                    <div class="tl-item">
+                        <div class="tl-date">2020.9 — 2025.3</div>
+                        <div class="tl-body">
+                            <strong>北京交通大学</strong>
+                            <div class="tl-sub">计算机科学与技术 · 工学博士</div>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-date">2023.11 — 2024.11</div>
+                        <div class="tl-body">
+                            <strong>英国女王大学</strong>
+                            <div class="tl-sub">计算机科学与技术 · 访问学者</div>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-date">2018.9 — 2020.6</div>
+                        <div class="tl-body">
+                            <strong>北京交通大学</strong>
+                            <div class="tl-sub">计算机技术 · 工学硕士</div>
+                        </div>
+                    </div>
+                    <div class="tl-item">
+                        <div class="tl-date">2014.9 — 2018.6</div>
+                        <div class="tl-body">
+                            <strong>西北师范大学</strong>
+                            <div class="tl-sub">物联网工程 · 工学学士</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="work" class="tab-content">
+                <div class="timeline">
+                    <div class="tl-item">
+                        <div class="tl-date">2025.6 — 至今</div>
+                        <div class="tl-body">
+                            <strong>兰州交通大学</strong>
+                            <div class="tl-sub">电子与信息工程学院 · 讲师</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 科学研究 -->
+        <section id="research">
+            <div class="section-title">
+                <div class="title-dot"></div>
+                <span class="section-title-text">科学研究</span>
+                <div class="title-line"></div>
+            </div>
+
+            <div class="subsec-title">代表性论文</div>
+
+            <!-- 2026 -->
+            <div class="year-group">
+                <div class="year-header open" onclick="toggleYear(this)">
+                    <div style="display:flex;align-items:center;gap:0">
+                        <span class="year-label">2026</span>
+                        <span class="year-count">2 篇</span>
+                    </div>
+                    <svg class="year-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+                <div class="year-body open">
+                    <ul class="paper-list">
+                        <li class="paper-item">
+                            <span class="paper-num">[1]</span>
+                            <div class="paper-body">
+                                <div class="paper-title">Hybrid offline-online learning of fuzzy cognitive maps for forecasting nonstationary streaming time series</div>
+                                <div class="paper-meta">IEEE Transactions on Fuzzy Systems, 2026.</div>
+                                <div class="paper-tags"><span class="tag tag-sci">SCI一区 Top</span><span class="tag tag-if">IF 10.7</span></div>
+                            </div>
+                        </li>
+                        <li class="paper-item">
+                            <span class="paper-num">[8]</span>
+                            <div class="paper-body">
+                                <div class="paper-title">TacticalCalib: End-to-End 6-DoF Camera Pose Regression for Tactical Camera Calibration</div>
+                                <div class="paper-meta">WACV, 2026, pp. 6547–6556.</div>
+                                <div class="paper-tags"><span class="tag tag-ccf">计算机视觉顶级会议</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2025 -->
+            <div class="year-group">
+                <div class="year-header open" onclick="toggleYear(this)">
+                    <div style="display:flex;align-items:center;gap:0">
+                        <span class="year-label">2025</span>
+                        <span class="year-count">1 篇</span>
+                    </div>
+                    <svg class="year-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+                <div class="year-body open">
+                    <ul class="paper-list">
+                        <li class="paper-item">
+                            <span class="paper-num">[7]</span>
+                            <div class="paper-body">
+                                <div class="paper-title">Sport field calibration with NeRF-guided camera optimization from a single image</div>
+                                <div class="paper-meta">CVPR, 2025.</div>
+                                <div class="paper-tags"><span class="tag tag-ccf">CCF A类会议</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2024 -->
+            <div class="year-group">
+                <div class="year-header open" onclick="toggleYear(this)">
+                    <div style="display:flex;align-items:center;gap:0">
+                        <span class="year-label">2024</span>
+                        <span class="year-count">3 篇</span>
+                    </div>
+                    <svg class="year-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+                <div class="year-body open">
+                    <ul class="paper-list">
+                        <li class="paper-item">
+                            <span class="paper-num">[2]</span>
+                            <div class="paper-body">
+                                <div class="paper-title">Long-term interpretable air quality trend forecasting via directed interval fuzzy cognitive maps</div>
+                                <div class="paper-meta">IEEE Transactions on Fuzzy Systems, vol. 32, no. 12, pp. 7129–7142, 2024.</div>
+                                <div class="paper-tags"><span class="tag tag-sci">SCI一区 Top</span><span class="tag tag-if">IF 10.7</span></div>
+                            </div>
+                        </li>
+                        <li class="paper-item">
+                            <span class="paper-num">[4]</span>
+                            <div class="paper-body">
+                                <div class="paper-title">模糊认知图学习算法及应用综述</div>
+                                <div class="paper-meta">自动化学报, 50(3): 450–474, 2024.</div>
+                                <div class="paper-tags"><span class="tag tag-ccf">CCF T1类期刊</span></div>
+                            </div>
+                        </li>
+                        <li class="paper-item">
+                            <span class="paper-num">[6]</span>
+                            <div class="paper-body">
+                                <div class="paper-title">Learning high-order fuzzy cognitive maps via multimodal artificial bee colony algorithm and nearest-better clustering</div>
+                                <div class="paper-meta">Knowledge-Based Systems, 295: 111771, 2024.</div>
+                                <div class="paper-tags"><span class="tag tag-ei">SCI一区 Top</span><span class="tag tag-if">IF 7.2</span></div>
+                            </div>
+                        </li>
+                        <li class="paper-item">
+                            <span class="paper-num">[10]</span>
+                            <div class="paper-body">
+                                <div class="paper-title">基于时空多图融合的交通流量预测</div>
+                                <div class="paper-meta">计算机应用, 2024.</div>
+                                <div class="paper-tags"><span class="tag tag-ei">EI收录</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2023 -->
+            <div class="year-group">
+                <div class="year-header" onclick="toggleYear(this)">
+                    <div style="display:flex;align-items:center;gap:0">
+                        <span class="year-label">2023</span>
+                        <span class="year-count">1 篇</span>
+                    </div>
+                    <svg class="year-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+                <div class="year-body">
+                    <ul class="paper-list">
+                        <li class="paper-item">
+                            <span class="paper-num">[5]</span>
+                            <div class="paper-body">
+                                <div class="paper-title">Time series forecasting based on fuzzy cognitive maps and GRU-Autoencoder</div>
+                                <div class="paper-meta">Soft Computing, 1–17, 2023.</div>
+                                <div class="paper-tags"><span class="tag tag-sci">SCI三区</span><span class="tag tag-if">IF 3.1</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2022 -->
+            <div class="year-group">
+                <div class="year-header" onclick="toggleYear(this)">
+                    <div style="display:flex;align-items:center;gap:0">
+                        <span class="year-label">2022</span>
+                        <span class="year-count">2 篇</span>
+                    </div>
+                    <svg class="year-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+                <div class="year-body">
+                    <ul class="paper-list">
+                        <li class="paper-item">
+                            <span class="paper-num">[3]</span>
+                            <div class="paper-body">
+                                <div class="paper-title">Multi-source and multivariate ozone prediction based on fuzzy cognitive maps and evidential reasoning theory</div>
+                                <div class="paper-meta">Applied Soft Computing, 119: 108600, 2022.</div>
+                                <div class="paper-tags"><span class="tag tag-ei">SCI二区 Top</span><span class="tag tag-if">IF 7.2</span></div>
+                            </div>
+                        </li>
+                        <li class="paper-item">
+                            <span class="paper-num">[9]</span>
+                            <div class="paper-body">
+                                <div class="paper-title">Towards improved multifactorial particle swarm optimization learning of fuzzy cognitive maps: A case study on air quality prediction</div>
+                                <div class="paper-meta">Applied Soft Computing, 2022.</div>
+                                <div class="paper-tags"><span class="tag tag-ei">SCI二区 Top</span><span class="tag tag-if">IF 7.2</span></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="subsec-title">科研项目</div>
+            <div class="project-item">
+                <strong>中央高校基本科研业务费项目</strong>（No.2022YJS121）<br>
+                基于模糊认知图的动态非线性非平稳时间序列的表征和预测理论研究
+            </div>
+            <div class="project-item">
+                <strong>横向课题</strong><br>
+                铁路安全管理知识问答系统预研及轨道状态识别模型研究
+            </div>
+        </section>
+
+        <!-- 教学研究 -->
+        <section id="teaching">
+            <div class="section-title">
+                <div class="title-dot"></div>
+                <span class="section-title-text">教学研究</span>
+                <div class="title-line"></div>
+            </div>
+            <div class="course-grid">
+                <div class="course-card">
+                    <div class="course-name">最优化及其应用</div>
+                    <div class="course-type">研究生专业课程</div>
+                    <span class="course-sem">
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg>
+                        春季学期
+                    </span>
+                </div>
+                <div class="course-card">
+                    <div class="course-name">物联网技术</div>
+                    <div class="course-type">本科生核心课程</div>
+                    <span class="course-sem">
+                        <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg>
+                        秋季学期
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 招生信息 -->
+        <section id="admission">
+            <div class="section-title">
+                <div class="title-dot"></div>
+                <span class="section-title-text">招生信息</span>
+                <div class="title-line"></div>
+            </div>
+            <div class="recruit-card">
+                <div class="recruit-title">诚招研究生——期待与你的相遇</div>
+                <p class="recruit-text">
+                    欢迎对<strong style="color:#fff">不确定性人工智能、时间序列分析、因果学习、模糊推理</strong>感兴趣的同学加入。每年招收硕士研究生 1-2 名，提供可发paper的Idea->让你快速入门本研究方向，有趣的想法可以共同探讨，给予论文发表的全流程指导、推荐出国深造或实习就业机会。
+                </p>
+                <div class="recruit-tags">
+                    <span class="req-tag">计算机科学与技术 / 人工智能/数学背景</span>
+                    <span class="req-tag">优秀的编程能力（Python，Java等），具有idea的快速验证的能力
+</span>
+                    <span class="req-tag">良好的英文撰写、阅读能力</span>
+                    <span class="req-tag">对科研具有极高的热情，对生活有追求，目标明确</span>
+                   <span class="req-tag">有较强的抗压能力，科研路漫漫，耐得住寂寞</span>
+                </div>
+                <div class="recruit-email">📩 温馨寄语：<a href="mailto:liuxiaoqian@lzjtu.edu.cn">如有幸成为师生，平时有问题可以随时微信我，不要“憋着”！汇报时希望你能“提前准备”“敢于提问题”“记录反馈”！我希望你科研上慢慢变得能独立做决策、敢于思考问题，而不是完全等指导！</a></div>
+            </div>
+        </section>
+
+        <!-- 团队成员 -->
+        <section id="students">
+            <div class="section-title">
+                <div class="title-dot"></div>
+                <span class="section-title-text">团队成员</span>
+                <div class="title-line"></div>
+            </div>
+            <div class="student-grid">
+                <div class="student-card">
+                    <div class="student-photo">Photo</div>
+                    <div class="student-name">张同学</div>
+                    <div class="student-grade">2022 级硕士</div>
+                </div>
+                <div class="student-card">
+                    <div class="student-photo">Photo</div>
+                    <div class="student-name">李同学</div>
+                    <div class="student-grade">2022 级硕士</div>
+                </div>
+                <div class="student-card">
+                    <div class="student-photo">Photo</div>
+                    <div class="student-name">王同学</div>
+                    <div class="student-grade">2025 级硕士</div>
+                </div>
+                <div class="student-card">
+                    <div class="student-photo">Photo</div>
+                    <div class="student-name">赵同学</div>
+                    <div class="student-grade">2025 级硕士</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<!-- ─── FOOTER ──────────────────────────────────── -->
+<footer>
+    <p>© 2026 <span>兰州交通大学</span> 课题组 &nbsp;·&nbsp; 电子与信息工程学院</p>
+    <p style="margin-top:4px">甘肃省兰州市安宁西路 88 号 &nbsp;|&nbsp; 最后更新：2026.03</p>
+</footer>
+
+<script>
+    function toggleYear(header) {
+        const body = header.nextElementSibling;
+        const isOpen = header.classList.contains('open');
+        header.classList.toggle('open', !isOpen);
+        body.classList.toggle('open', !isOpen);
+    }
+
+    function switchTab(e, id) {
+        const section = e.target.closest('section');
+        section.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        section.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.getElementById(id).classList.add('active');
+        e.currentTarget.classList.add('active');
+    }
+
+    // Nav highlight on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('nav a');
+    window.addEventListener('scroll', () => {
+        let cur = '';
+        sections.forEach(s => {
+            if (pageYOffset >= s.offsetTop - 100) cur = s.id;
+        });
+        navLinks.forEach(a => {
+            a.classList.toggle('active', a.getAttribute('href') === '#' + cur);
+        });
+    }, { passive: true });
+</script>
+</body>
+</html>
