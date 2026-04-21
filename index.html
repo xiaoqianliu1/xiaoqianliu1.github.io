@@ -510,6 +510,30 @@
             color: var(--text-body);
         }
 
+        /* ── ACHIEVEMENTS (Patents & Copyrights) ─── */
+        .achievement-item {
+            padding: 14px 18px;
+            border-left: 3px solid var(--navy-mid);
+            background: var(--cream);
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 10px;
+            font-size: 0.88rem;
+            line-height: 1.7;
+            color: var(--text-body);
+        }
+        .achievement-item.copyright {
+            border-left-color: var(--red-accent);
+        }
+        .achievement-item strong {
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+        .achievement-meta {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
         /* ── COURSES ─────────────────────────────── */
         .course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
         .course-card {
@@ -672,7 +696,6 @@
 </head>
 <body>
 
-<!-- ─── HEADER ──────────────────────────────────── -->
 <header>
     <div class="logo">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="opacity:0.6"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6L23 9zM18.37 17L12 20.45 5.63 17l-.63-.36V11.87l7 3.82 7-3.82V16.64l-.63.36z"/></svg>
@@ -690,10 +713,8 @@
     </nav>
 </header>
 
-<!-- ─── MAIN LAYOUT ──────────────────────────────── -->
 <div class="page-wrap">
 
-    <!-- ── SIDEBAR ───────────────────────────────── -->
     <aside class="sidebar">
         <div class="profile-card">
             <div class="profile-header-bg"></div>
@@ -723,6 +744,10 @@
                         <span class="contact-val">1475973011</span>
                     </div>
                     <div class="contact-row">
+                        <span class="contact-label">学术</span>
+                        <span class="contact-val"><a href="#" target="_blank">Google Scholar Profile</a></span>
+                    </div>
+                    <div class="contact-row">
                         <span class="contact-label">地址</span>
                         <span class="contact-val" style="font-size:0.8rem;line-height:1.6">甘肃省兰州市安宁区<br>兰州交通大学励志楼</span>
                     </div>
@@ -736,10 +761,8 @@
         </div>
     </aside>
 
-    <!-- ── MAIN ───────────────────────────────────── -->
     <main class="main-content">
 
-        <!-- 个人简介 -->
         <section id="about">
             <div class="section-title">
                 <div class="title-dot"></div>
@@ -765,7 +788,6 @@
             </div>
         </section>
 
-        <!-- 履历背景 -->
         <section id="experience">
             <div class="section-title">
                 <div class="title-dot"></div>
@@ -821,7 +843,6 @@
             </div>
         </section>
 
-        <!-- 科学研究 -->
         <section id="research">
             <div class="section-title">
                 <div class="title-dot"></div>
@@ -831,7 +852,6 @@
 
             <div class="subsec-title">代表性论文</div>
 
-            <!-- 2026 -->
             <div class="year-group">
                 <div class="year-header open" onclick="toggleYear(this)">
                     <div style="display:flex;align-items:center;gap:0">
@@ -870,7 +890,6 @@
                 </div>
             </div>
 
-            <!-- 2025 -->
             <div class="year-group">
                 <div class="year-header open" onclick="toggleYear(this)">
                     <div style="display:flex;align-items:center;gap:0">
@@ -893,7 +912,6 @@
                 </div>
             </div>
 
-            <!-- 2024 -->
             <div class="year-group">
                 <div class="year-header open" onclick="toggleYear(this)">
                     <div style="display:flex;align-items:center;gap:0">
@@ -940,7 +958,6 @@
                 </div>
             </div>
 
-            <!-- 2023 -->
             <div class="year-group">
                 <div class="year-header" onclick="toggleYear(this)">
                     <div style="display:flex;align-items:center;gap:0">
@@ -963,7 +980,6 @@
                 </div>
             </div>
 
-            <!-- 2022 -->
             <div class="year-group">
                 <div class="year-header" onclick="toggleYear(this)">
                     <div style="display:flex;align-items:center;gap:0">
@@ -994,7 +1010,6 @@
                 </div>
             </div>
 
-            <!--2019及以前-->
             <div class="year-group">
                 <div class="year-header" onclick="toggleYear(this)">
                     <div style="display:flex;align-items:center;gap:0">
@@ -1060,9 +1075,37 @@
                 <strong>国家重点实验室</strong><br>
                基于动静态检测数据的轨道健康诊断与智能评估方法研究，2022-2023，主研
             </div>
+
+            <div class="subsec-title">发明专利 (3项)</div>
+            <div class="achievement-item">
+                <div class="achievement-meta">一种跨域多模态多级的无砟轨道隐蔽缺陷检测方法，已公开，专利号：CN117990703A</div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-meta">轨道几何动态检测无效数据识别方法及系统，受理公告日：2024.11.29，中国，发明，申请号：2024117366023.</div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-meta">一种基于扩散模型的数据缺失值插补方法，受理公告日：2024.11.26，中国，发明，申请号：2024118395288.</div>
+            </div>
+
+            <div class="subsec-title">软件著作权 (5项)</div>
+            <div class="achievement-item copyright">
+                <div class="achievement-meta">张英俊, 尹辉, 黄华, 高亮, 刘晓倩, 孙威, 万文琪, 秦思培, 阎飞, 动检数据异常标注系统 V1.0，登记号：2024SR0748396.</div>
+            </div>
+            <div class="achievement-item copyright">
+                <div class="achievement-meta">马慧芳, 刘晓倩, 马兰，糟智明，融合语义与图结构的短文本关键词提取软件 V1.0, 登记号：2018SR585513.</div>
+            </div>
+            <div class="achievement-item copyright">
+                <div class="achievement-meta">马慧芳, 刘晓倩, 沈玉红，孔佳睿，基于邻边的关键词提取系统 V1.0, 登记号：2017SR656221.</div>
+            </div>
+            <div class="achievement-item copyright">
+                <div class="achievement-meta">贾向东, 刘晓倩, 沈玉红, 颉满刚, 现代数字通信基带传输仿真平台 V1.0, 登记号：2017SR445576.</div>
+            </div>
+            <div class="achievement-item copyright">
+                <div class="achievement-meta">贾向东, 沈玉红, 刘晓倩, 颉满刚, 基于 MATLAB 的数字带通传输系统 V1.0, 登记号：2017SR445581.</div>
+            </div>
+
         </section>
 
-        <!-- 教学研究 -->
         <section id="teaching">
             <div class="section-title">
                 <div class="title-dot"></div>
@@ -1089,7 +1132,6 @@
             </div>
         </section>
 
-        <!-- 招生信息 -->
         <section id="admission">
             <div class="section-title">
                 <div class="title-dot"></div>
@@ -1107,39 +1149,53 @@
 </span>
                     <span class="req-tag">良好的英文撰写、阅读能力</span>
                     <span class="req-tag">对科研具有极高的热情，对生活有追求，目标明确</span>
-                   <span class="req-tag">有较强的抗压能力，科研路漫漫，耐得住寂寞</span>
+                    <span class="req-tag">有较强的抗压能力，科研路漫漫，耐得住寂寞</span>
                 </div>
                 <div class="recruit-email">📩 温馨寄语：<a href="mailto:liuxiaoqian@lzjtu.edu.cn">如有幸成为师生，平时有问题可以随时微信我，不要“憋着”！汇报时希望你能“提前准备”“敢于提问题”“记录反馈”！我希望你科研上慢慢变得能独立做决策、敢于思考问题，而不是完全等指导！</a></div>
             </div>
         </section>
 
-        <!-- 团队成员 -->
         <section id="students">
             <div class="section-title">
                 <div class="title-dot"></div>
-                <span class="section-title-text">团队成员</span>
+                <span class="section-title-text">智能计算与视觉感知团队</span>
                 <div class="title-line"></div>
             </div>
             <div class="student-grid">
                 <div class="student-card">
                     <div class="student-photo">Photo</div>
-                    <div class="student-name">张同学</div>
-                    <div class="student-grade">2022 级硕士</div>
+                    <div class="student-name">杨军</div>
+                    <div class="student-grade">教授，中国图象图形学会交通视频专委会副主任</div>
                 </div>
                 <div class="student-card">
                     <div class="student-photo">Photo</div>
-                    <div class="student-name">李同学</div>
-                    <div class="student-grade">2022 级硕士</div>
+                    <div class="student-name">王小鹏</div>
+                    <div class="student-grade">教授，甘肃省科技领军人才</div>
                 </div>
                 <div class="student-card">
                     <div class="student-photo">Photo</div>
-                    <div class="student-name">王同学</div>
-                    <div class="student-grade">2025 级硕士</div>
+                    <div class="student-name">沈瑜</div>
+                    <div class="student-grade">教授，甘肃省科技领军人才</div>
                 </div>
                 <div class="student-card">
                     <div class="student-photo">Photo</div>
-                    <div class="student-name">赵同学</div>
-                    <div class="student-grade">2025 级硕士</div>
+                    <div class="student-name">徐恒通</div>
+                    <div class="student-grade">副教授，甘肃省陇原人才</div>
+                </div>
+                <div class="student-card">
+                    <div class="student-photo">Photo</div>
+                    <div class="student-name">王小虎</div>
+                    <div class="student-grade">副教授，甘肃省陇原人才</div>
+                </div>
+                <div class="student-card">
+                    <div class="student-photo">Photo</div>
+                    <div class="student-name">刘晓倩</div>
+                    <div class="student-grade">副教授，甘肃省陇原人才</div>
+                </div>
+                <div class="student-card">
+                    <div class="student-photo">Photo</div>
+                    <div class="student-name">贺凯</div>
+                    <div class="student-grade">副教授，甘肃省陇原人才</div>
                 </div>
             </div>
         </section>
@@ -1147,7 +1203,6 @@
     </main>
 </div>
 
-<!-- ─── FOOTER ──────────────────────────────────── -->
 <footer>
     <p>© 2026 <span>兰州交通大学</span> 智能计算与视觉感知团队 &nbsp;·&nbsp; 电子与信息工程学院</p>
     <p style="margin-top:4px">甘肃省兰州市安宁西路 88 号 &nbsp;|&nbsp; 最后更新：2026.03</p>
