@@ -1,0 +1,12 @@
+---
+title: "Degradation Dynamic Characteristics and Onboard Identification Model for Layered Stiffness in Ballasted Tracks"
+collection: publications
+category: manuscripts
+permalink: 
+excerpt: 'We propose a novel method for onboard layered-stiffness identification in ballasted tracks by integrating a dual-degree-of-freedom ballast vibration model with a physics-guided dual-path multimodal fusion network, achieving 91.9% accuracy in detecting rail-pad and trackbed degradation.'
+date: 2026-05-23
+venue: ' Construction and Building Materials'
+# slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
+paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S0950061826012146'
+citation: 'Xiao Y, Ma C, Liu X, et al. Degradation dynamic characteristics and onboard identification model for layered stiffness in ballasted tracks[J]. Construction and Building Materials, 2026, 524: 146308.'
+---
