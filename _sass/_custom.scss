@@ -149,23 +149,4 @@
   }
 }
 
-/* Masthead selected state underline effect */
-.greedy-nav .visible-links a {
-  position: relative;
-}
-
-.greedy-nav .visible-links a::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 4px;
-  background: #bdc1c4;
-  width: 100%;
-  transition: transform 0.2s ease-in-out;
-  transform: scaleX(0);
-}
-
-.greedy-nav .visible-links a:hover::before {
-  transform: scaleX(1);
-}
+/* Masthead underline effect handled by navigation.scss */
