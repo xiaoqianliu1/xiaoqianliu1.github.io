@@ -13,7 +13,7 @@ title                    : "Xiaoqian Liu / Associate Professor"
 title_separator          : "-"
 name                     : &name "Xiaoqian Liu"
 description              : &description "Associate Professor, Lanzhou Jiaotong University"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://xiaoqianliu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://xiaoqianliu1.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "xiaoqianliu1/xiaoqianliu.github.io"
