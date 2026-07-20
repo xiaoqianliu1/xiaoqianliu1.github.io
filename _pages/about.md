@@ -9,7 +9,7 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-I am an Associate Professor (University Appointed) in the School of Electronic and Information Engineering at Lanzhou Jiaotong University, a Visiting Scholar at Queen's University Belfast, UK, and a recipient of the Gansu Longyuan Talent Award.
+I am an Associate Professor (University Appointed) in the School of Electronic and Information Engineering at Lanzhou Jiaotong University (兰州交通大学), and a Visiting Scholar at Queen's University Belfast, UK. Previously, I obtained my Ph.D. from Beijing Jiaotong University.
 
 My research interests primarily focus on **time series analysis, causal learning, evolutionary computation, and uncertain artificial intelligence.** I was honored with the **2025 ACM Lanzhou Chapter Doctoral Dissertation Award**.
 
@@ -17,26 +17,24 @@ I have published over 17 academic papers in top-tier international and national 
 
 I am a professional member of ACM and CCF, and serve as a reviewer for prominent academic journals including IEEE TFS, IEEE TCYB, IEEE TNNLS, and Neural Networks (NN).
 
-My research interests include:
-- Time Series Forecasting
-- Intelligent Transportation
-- Multimodal Learning
-- Causal Discovery
-
 <h1 id="-news">🔥 News</h1>
 <ul>
-  <li><em>2024.02</em>: &nbsp;🎉🎉 One paper accepted by CVPR 2025 (CCF-A).</li>
-  <li><em>2024.01</em>: &nbsp;🎉🎉 One paper accepted by WACV 2026.</li>
-  <li><em>2023.12</em>: &nbsp;🎉🎉 One paper accepted by CBM 2026.</li>
+  <li><em>2025.01</em>: &nbsp;🎉🎉 One paper was accepted by WACV 2026! Look forward to meeting you in Alaska!</li>
+  <li><em>2024.12</em>: &nbsp;🎉🎉 One paper was accepted by CBM 2026!</li>
+  <li><em>2024.02</em>: &nbsp;🎉🎉 One paper was accepted by CVPR 2025 (CCF-A)!</li>
+  <li><em>2024.01</em>: &nbsp;🎉🎉 One paper was accepted by IEEE TFS 2024 (SCI Q1)!</li>
+  <li><em>2023.06</em>: &nbsp;🎉🎉 One paper was accepted by KBS 2024!</li>
 </ul>
 
-<h1 id="-education">🎓 Education</h1>
+<h1 id="-research">🔬 Research Interests</h1>
 <ul>
-  <li><strong>Ph.D.</strong> Beijing Jiaotong University</li>
-  <li><strong>Visiting Scholar</strong> Queen's University Belfast, UK</li>
+  <li><strong>Time Series Forecasting</strong></li>
+  <li><strong>Intelligent Transportation</strong></li>
+  <li><strong>Multimodal Learning</strong></li>
+  <li><strong>Causal Discovery</strong></li>
 </ul>
 
-<h1 id="-publications">📝 Publications</h1>
+<h1 id="-publications">📝 Selected Publications</h1>
 
 <div class="paper-box"><div class="paper-box-image"><div><div class="badge">CVPR 2025</div><img src="images/profile.png" alt="sym" width="100%"></div></div>
 <div class="paper-box-text">
@@ -63,7 +61,7 @@ My research interests include:
   </div>
 </div>
 
-<div class="paper-box"><div class="paper-box-image"><div><div class="badge">TFS 2026</div><img src="images/profile.png" alt="sym" width="100%"></div></div>
+<div class="paper-box"><div class="paper-box-image"><div><div class="badge">IEEE TFS 2026</div><img src="images/profile.png" alt="sym" width="100%"></div></div>
 <div class="paper-box-text">
     <p>IEEE TFS 2026 Publication</p>
     <p><strong>Liu X</strong> et al.</p>
@@ -71,17 +69,33 @@ My research interests include:
   </div>
 </div>
 
-<h1 id="-honors">🏆 Honors and Awards</h1>
+<strong><a href="/publications/">View All Publications →</a></strong>
+
+<h1 id="-education">🎓 Education</h1>
 <ul>
-  <li><strong>2025 ACM Lanzhou Chapter Doctoral Dissertation Award</strong></li>
-  <li><strong>Gansu Longyuan Talent Award</strong></li>
+  <li><strong>Ph.D.</strong> Beijing Jiaotong University (北京交通大学)</li>
+  <li><strong>Visiting Scholar</strong> Queen's University Belfast, UK</li>
 </ul>
 
-<h1 id="-service">📋 Service</h1>
+<h1 id="-honors">🏆 Honors and Awards</h1>
 <ul>
-  <li>Professional Member: ACM, CCF</li>
-  <li>Reviewer: IEEE TFS, IEEE TCYB, IEEE TNNLS, Neural Networks (NN)</li>
+  <li><em>2025</em>: &nbsp;🎉🎉 ACM Lanzhou Chapter Doctoral Dissertation Award</li>
+  <li>Gansu Longyuan Talent Award</li>
+</ul>
+
+<h1 id="-projects">💻 Projects</h1>
+<ul>
+  <li>Fundamental Research Funds for the Central Universities</li>
+  <li>National Natural Science Foundation of China (NSFC)</li>
+  <li>National Key R&D Program of China</li>
+  <li>National Key Laboratory Open Projects</li>
+</ul>
+
+<h1 id="-service">📋 Professional Service</h1>
+<ul>
+  <li><strong>Professional Member</strong>: ACM, CCF</li>
+  <li><strong>Journal Reviewer</strong>: IEEE TFS, IEEE TCYB, IEEE TNNLS, Neural Networks (NN)</li>
 </ul>
 
 <h1 id="-contact">📧 Contact</h1>
-<p>Email: xiaoqianliu@mail.lzjtu.cn</p>
+<p>Email: <a href="mailto:xiaoqianliu@mail.lzjtu.cn">xiaoqianliu@mail.lzjtu.cn</a> | Location: Lanzhou, Gansu, China</p>
