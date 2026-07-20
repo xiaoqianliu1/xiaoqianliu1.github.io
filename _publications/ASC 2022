@@ -1,0 +1,12 @@
+---
+title: "Multi-source and Multivariate Ozone Prediction Based on Fuzzy Cognitive Maps and Evidential Reasoning Theory"
+collection: publications
+category: manuscripts
+permalink: 
+excerpt: 'We propose ERC-FCM, a spatio-temporal fusion model that combines real-coded genetic algorithm-learned FCMs with evidential reasoning theory to handle cross-pollutant interactions and low-quality data for multi-source ozone prediction.'
+date: 2022-02-14
+venue: 'Applied Soft Computing'
+# slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
+paperurl: 'https://www.sciencedirect.com/science/article/abs/pii/S1568494622001065'
+citation: 'Liu X, Zhang Y, Wang J, et al. Multi-source and multivariate ozone prediction based on fuzzy cognitive maps and evidential reasoning theory[J]. Applied Soft Computing, 2022, 119: 108600.'
+---
