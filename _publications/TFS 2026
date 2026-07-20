@@ -3,7 +3,7 @@ title: "Hybrid Offline–Online Learning of Fuzzy Cognitive Maps for Forecasting
 collection: IEEE Transactions on Fuzzy Systems 
 category: manuscripts
 permalink: https://ieeexplore.ieee.org/abstract/document/11408869
-excerpt: 'we propose a novel hybrid offline-online FCM learning algorithm that integrates a nonstationarity detection mechanism with a knowledge-guided least squares (KGLS) method. In the offline phase, an initial FCM-based predictor is constructed from historical data, where the recursive least squares (RLS) method is employed to capture long-term causal relationships using a sliding window technique. The online phase incrementally updates the model using streaming data, guided by a nonstationarity detection mechanism based on statistical hypothesis testing. The mechanism classifies data shifts into stable, warning, and drift levels.'
+excerpt: 'We propose a hybrid offline-online FCM learning algorithm that combines nonstationarity detection with a knowledge-guided least squares method. It establishes initial causal patterns from historical data offline and incrementally updates the model online based on detected streaming data shifts.'
 date: 2026-05-03
 venue: 'IEEE Transactions on Fuzzy Systems '
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/11408869'
