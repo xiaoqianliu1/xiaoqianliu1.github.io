@@ -1,0 +1,12 @@
+--
+title: "Time-series Forecasting Based on Fuzzy Cognitive Maps and GRU-Autoencoder"
+collection: publications
+category: manuscripts
+permalink: 
+excerpt: 'We propose GAE-FCM, a univariate non-stationary time-series forecasting model that combines GRU and autoencoders to extract latent trend features into multivariate vectors, which are then modeled and predicted using a convex-optimized FCM.'
+venue: 'Soft Computing'
+date: 2023-07-23
+# slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
+paperurl: 'https://link.springer.com/article/10.1007/s00500-023-08977-1'
+citation: 'Liu X, Zhang Y, Wang J, et al. Time-series forecasting based on fuzzy cognitive maps and GRU-autoencoder[J]. Soft Computing, 2026, 30(2): 1011-1027.'
+---
