@@ -16,7 +16,10 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    {{ content }}
+    <div id="main" role="main">
+      {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+      {{ content }}
+    </div>
 
     <div class="page__footer">
       <footer>

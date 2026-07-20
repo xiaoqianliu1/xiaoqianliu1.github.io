@@ -1,0 +1,171 @@
+/* ==========================================================================
+   Custom styles matching mathscode.github.io
+   ========================================================================== */
+
+/* Paper box for publications */
+.paper-box {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+
+  .paper-box-image {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    order: 2;
+
+    img {
+      max-width: 400px;
+      box-shadow: 3px 3px 6px #888;
+      object-fit: cover;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.25em 0.4em;
+      font-size: 75%;
+      font-weight: 700;
+      line-height: 1;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 0.25rem;
+      color: #fff;
+      background-color: #007bff;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .paper-box-text {
+    max-width: 100%;
+    order: 1;
+
+    p {
+      margin-bottom: 0.25em;
+    }
+  }
+}
+
+@media (min-width: 48em) {
+  .paper-box {
+    flex-direction: row;
+
+    .paper-box-image {
+      justify-content: left;
+      min-width: 200px;
+      max-width: 40%;
+      order: 1;
+    }
+
+    .paper-box-text {
+      justify-content: left;
+      padding-left: 2em;
+      max-width: 60%;
+      order: 2;
+    }
+  }
+}
+
+/* Internship box */
+.internship-box {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+
+  .internship-box-image {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    order: 2;
+
+    img {
+      max-width: 280px;
+      box-shadow: 3px 3px 6px #888;
+      object-fit: cover;
+    }
+  }
+
+  .internship-box-text {
+    max-width: 100%;
+    order: 1;
+  }
+}
+
+@media (min-width: 48em) {
+  .internship-box {
+    flex-direction: row;
+
+    .internship-box-image {
+      justify-content: left;
+      min-width: 100px;
+      max-width: 20%;
+      order: 1;
+    }
+
+    .internship-box-text {
+      justify-content: left;
+      padding-left: 2em;
+      max-width: 80%;
+      order: 2;
+    }
+  }
+}
+
+/* Anchor offset for sticky masthead */
+.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+/* Profile box - flex on mobile, block on desktop */
+.profile_box {
+  display: flex;
+  place-content: flex-start;
+  align-items: center;
+}
+
+@media (min-width: 57.8125em) {
+  .profile_box {
+    display: block;
+  }
+}
+
+/* Show masthead home item */
+@media (min-width: 48em) {
+  .masthead__menu-home-item {
+    display: block !important;
+  }
+}
+
+/* Masthead selected state underline effect */
+.greedy-nav .visible-links a {
+  position: relative;
+}
+
+.greedy-nav .visible-links a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  background: #bdc1c4;
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+  transform: scaleX(0);
+}
+
+.greedy-nav .visible-links a:hover::before {
+  transform: scaleX(1);
+}

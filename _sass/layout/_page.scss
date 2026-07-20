@@ -49,7 +49,6 @@
 }
 
 .page__content {
-
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
@@ -59,17 +58,8 @@
     font-size: 1em;
   }
 
-  /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
-
-    /* sibling indentation*/
-    @if $paragraph-indent == true {
-      & + p {
-        text-indent: $indent-var;
-        margin-top: -($indent-var);
-      }
-    }
   }
 
   a {
@@ -100,7 +90,6 @@
     font-size: $type-size-6;
   }
 
-  /* blockquote citations */
   blockquote + .small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
