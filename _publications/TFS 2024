@@ -3,7 +3,7 @@ title: "Long-Term Interpretable Air Quality Trend Forecasting via Directed Inter
 collection: publications
 category: manuscripts
 permalink: 
-excerpt: 'We present a long-term interpretable air quality trend forecasting model to address these challenges via directed interval fuzzy cognitive maps, DE-DIFCM.'
+excerpt: 'We propose DE-DIFCM, a long-term interpretable air quality forecasting model using directed interval fuzzy cognitive maps. It extracts trend features via interval fuzzy granules and Cramer decomposition to enable accurate, cross-index prediction without accumulating long-term errors.'
 date: 2024-10-16
 venue: ' IEEE Transactions on Fuzzy Systems '
 # slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
