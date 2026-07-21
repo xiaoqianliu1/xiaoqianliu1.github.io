@@ -18,6 +18,7 @@ I have published over 17 academic papers in top-tier international and national 
 
 I am a professional member of ACM and CCF, and serve as a reviewer for prominent academic journals including IEEE TFS, IEEE TCYB, IEEE TNNLS, and Neural Networks (NN).
 
+<span class='anchor' id='-news'></span>
 # 🔥 News
 - *2025.01*: &nbsp;🎉🎉 One paper was accepted by WACV 2026! Look forward to meeting you in Alaska!
 - *2024.12*: &nbsp;🎉🎉 One paper was accepted by CBM 2026!
@@ -25,6 +26,7 @@ I am a professional member of ACM and CCF, and serve as a reviewer for prominent
 - *2024.01*: &nbsp;🎉🎉 One paper was accepted by IEEE TFS 2024 (SCI Q1)!
 - *2023.06*: &nbsp;🎉🎉 One paper was accepted by KBS 2024!
 
+<span class='anchor' id='-research-interests'></span>
 # 🔬 Research Interests
 - **Time Series Forecasting**
 - **Intelligent Transportation**
@@ -33,6 +35,7 @@ I am a professional member of ACM and CCF, and serve as a reviewer for prominent
 - **Evolutionary Computation**
 - **Uncertain Artificial Intelligence**
 
+<span class='anchor' id='-publications'></span>
 # 📝 Selected Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
@@ -86,24 +89,22 @@ IEEE TFS 2024 Publication
 </div>
 </div>
 
+<span class='anchor' id='-education'></span>
 # 🎓 Education
 - **Ph.D.** — Beijing Jiaotong University (北京交通大学)
 - **Visiting Scholar** — Queen's University Belfast, UK
 
+<span class='anchor' id='-honors-and-awards'></span>
 # 🏆 Honors and Awards
 - *2025*: &nbsp;🎉🎉 ACM Lanzhou Chapter Doctoral Dissertation Award
 - Gansu Longyuan Talent Award
 
-# 💻 Research Projects
-- Fundamental Research Funds for the Central Universities
-- National Natural Science Foundation of China (NSFC)
-- National Key R&D Program of China
-- National Key Laboratory Open Projects
-
+<span class='anchor' id='-service'></span>
 # 📋 Professional Service
 - **Professional Member**: ACM, CCF
 - **Journal Reviewer**: IEEE TFS, IEEE TCYB, IEEE TNNLS, Neural Networks (NN)
 
+<span class='anchor' id='-contact'></span>
 # 📧 Contact
 - Email: [xiaoqianliu@mail.lzjtu.cn](mailto:xiaoqianliu@mail.lzjtu.cn)
 - Location: Lanzhou, Gansu, China
