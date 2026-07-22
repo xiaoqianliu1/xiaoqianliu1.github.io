@@ -180,6 +180,16 @@ Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 - **B.S.** — Northwest Normal University (西北师范大学)，导师：马慧芳
 - **Visiting Scholar** — Queen's University Belfast, UK，导师：Hui Wang
 
+<span class='anchor' id='-projects'></span>
+# 📂 Projects
+- **Lanzhou Jiaotong University Tianyou Postdoctoral Key Project**, Research on Multi-dimensional Uncertainty Modeling Methods for Non-stationary Time Series Data, 2026-2028, PI
+- **Fundamental Research Funds for the Central Universities**, Research on Representation and Prediction Theory of Dynamic Nonlinear Non-stationary Time Series Based on Fuzzy Cognitive Maps, 2022-2024, PI
+- **Industry Collaboration Project**, Railway Safety Management Knowledge Q&A System Pre-research and Track State Recognition Model Research, 2025-2026, PI
+- **Natural Science Industry Collaboration Project**, Intelligent Comprehensive Diagnosis and Evaluation of High-Speed Railway Bridges with Span Exceeding 1000m, 2024-2026, Co-PI
+- **Gansu Provincial Department of Education Innovation Fund**, Data-driven Interpretable Fault Diagnosis of Turnout Equipment, 2025-2026, Co-PI
+- **National Key R&D Program of China**, Precise Detection and Intelligent Identification Technology for Hidden Defects in High-Speed Rail Trackbed Structures, 2022-2025, Co-PI
+- **National Key Laboratory Open Project**, Research on Track Health Diagnosis and Intelligent Evaluation Methods Based on Dynamic and Static Inspection Data, 2022-2023, Co-PI
+
 <span class='anchor' id='-honors-and-awards'></span>
 # 🏆 Honors and Awards
 - *2025*: &nbsp;🎉🎉 ACM Lanzhou Chapter Doctoral Dissertation Award
