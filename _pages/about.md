@@ -119,7 +119,7 @@ Zhan Shi, Yingjun Zhang, Jing Wang, Jiahu Qin, **Xiaoqian Liu**, Hongzhi Yin, Ha
   <a class="view-all-btn" onclick="var x = document.getElementById('all-publications'); if (x.style.display === 'none' || x.style.display === '') { x.style.display = 'block'; this.innerHTML = '▲ Hide All Publications'; } else { x.style.display = 'none'; this.innerHTML = '▼ View All Publications'; }">▼ View All Publications</a>
 </div>
 
-<div id="all-publications" style="display: none; margin-top: 20px;">
+<div id="all-publications" style="display: none; margin-top: 20px;" markdown="1">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CBM 2026</div><img src='images/CBM2026.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
