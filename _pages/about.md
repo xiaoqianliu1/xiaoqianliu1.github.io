@@ -200,6 +200,14 @@ Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 - **Professional Member**: ACM, CCF
 - **Journal Reviewer**: IEEE TFS, IEEE TCYB, IEEE TNNLS, Neural Networks (NN)
 
+<span class='anchor' id='-join-our-group'></span>
+# 🤝 Join Our Group
+
+I am recruiting motivated students interested in Uncertainty Artificial Intelligence, Time Series Analysis, Causal Learning, and Fuzzy Reasoning. Our group focuses on developing intelligent methods for modeling, learning, and reasoning under uncertainty, with applications in complex temporal systems and intelligent transportation. We recruit 2–3 master students every year and welcome outstanding undergraduate students interested in research and graduate studies. Students will receive systematic research training in problem formulation, algorithm design, experimental validation, and academic writing, with opportunities for paper publication, international collaboration, research internships, and further Ph.D. studies. We are looking for students with backgrounds in Computer Science, Artificial Intelligence, Mathematics, or related fields, strong programming skills (Python/Java/C++), good English reading and writing abilities, and a strong passion for research. If you are curious about exploring challenging AI problems and creating new knowledge, please send your CV and transcript via email.
+
+- **Chenhao Cao** (曹晨昊): First-year graduate student, School of Electronic and Information Engineering, Lanzhou Jiaotong University
+- **Weixuan Xie** (谢炜炫): Second-year undergraduate student, Lanzhou Jiaotong University
+
 <span class='anchor' id='-contact'></span>
 # 📧 Contact
 - Email: [xiaoqianliu@mail.lzjtu.cn](mailto:xiaoqianliu@mail.lzjtu.cn)

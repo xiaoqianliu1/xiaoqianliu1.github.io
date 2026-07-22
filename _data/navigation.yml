@@ -24,5 +24,8 @@ main:
   - title: "Service"
     url: "/#-service"
 
+  - title: "Join Our Group"
+    url: "/#-join-our-group"
+
   - title: "Contact"
     url: "/#-contact"
