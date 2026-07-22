@@ -158,17 +158,17 @@ Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 </div>
 </div>
 
-- **自动化学报 2024**, 模糊认知图学习算法及应用综述, 刘晓倩, 张英俊, 秦家虎, 李卓凡, 梁伟玲, 李宗溪
+- **[自动化学报, 2024]** 模糊认知图学习算法及应用综述. 刘晓倩, 张英俊, 秦家虎, 李卓凡, 梁伟玲, 李宗溪.
 
-- **Information Sciences 2023**, [STCM: A spatio-temporal calibration model for low-cost air monitoring sensors](https://www.sciencedirect.com/science/article/pii/S0020025523008904), Yingjun Zhang, Chunyang Ju, Jiahu Qin, Lei Song, **Xiaoqian Liu**, Wei Sun, Zhuo Li
+- **[Information Sciences, 2023]** [STCM: A spatio-temporal calibration model for low-cost air monitoring sensors](https://www.sciencedirect.com/science/article/pii/S0020025523008904). Yingjun Zhang, Chunyang Ju, Jiahu Qin, Lei Song, **Xiaoqian Liu**, Wei Sun, Zhuo Li. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0020025523008904)
 
-- **Applied Soft Computing 2022**, [Towards improved multifactorial particle swarm optimization learning of fuzzy cognitive maps: A case study on air quality prediction](https://www.sciencedirect.com/science/article/pii/S1568494622007779), Weiling Liang, Yingjun Zhang, **Xiaoqian Liu**, Hongzhi Yin, Jing Wang, Yan Yang
+- **[Applied Soft Computing, 2022]** [Towards improved multifactorial particle swarm optimization learning of fuzzy cognitive maps: A case study on air quality prediction](https://www.sciencedirect.com/science/article/pii/S1568494622007779). Weiling Liang, Yingjun Zhang, **Xiaoqian Liu**, Hongzhi Yin, Jing Wang, Yan Yang. [[Paper]](https://www.sciencedirect.com/science/article/pii/S1568494622007779)
 
-- **Applied Soft Computing 2022**, [Multi-source and multivariate ozone prediction based on fuzzy cognitive maps and evidential reasoning theory](https://www.sciencedirect.com/science/article/pii/S1568494622000170), **Xiaoqian Liu**, Yingjun Zhang, Jing Wang, Hai Huang, Hongzhi Yin
+- **[Applied Soft Computing, 2022]** [Multi-source and multivariate ozone prediction based on fuzzy cognitive maps and evidential reasoning theory](https://www.sciencedirect.com/science/article/pii/S1568494622000170). **Xiaoqian Liu**, Yingjun Zhang, Jing Wang, Hai Huang, Hongzhi Yin. [[Paper]](https://www.sciencedirect.com/science/article/pii/S1568494622000170)
 
-- **2019**, 融合语义与图结构的短文本特征提取算法, 马慧芳, **刘晓倩**, 马兰, 伍诗萌
+- **[小型微型计算机系统, 2019]** 融合语义与图结构的短文本特征提取算法. 马慧芳, **刘晓倩**, 马兰, 伍诗萌.
 
-- **2018**, Short Text Feature Extraction via Node Semantic Coupling and Graph Structures, Huifang Ma, **Xiaoqian Liu**, Lan Ma, Yong Hu
+- **[IIP, 2018]** Short Text Feature Extraction via Node Semantic Coupling and Graph Structures. Huifang Ma, **Xiaoqian Liu**, Lan Ma, Yong Hu.
 
 </div>
 
