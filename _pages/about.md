@@ -175,9 +175,9 @@ Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 
 <span class='anchor' id='-education'></span>
 # 🎓 Education
-- **Ph.D.** — Beijing Jiaotong University (北京交通大学)，Supervisor：Yingjun Zhang，Hui Yin
-- **M.S.** — Beijing Jiaotong University (北京交通大学)，Supervisor：Wei Zhou，Yingjun Zhang
-- **B.S.** — Northwest Normal University (西北师范大学)， Supervisor： Huifang Ma
+- **Ph.D.** — Beijing Jiaotong University，Supervisor：Yingjun Zhang，Hui Yin
+- **M.S.** — Beijing Jiaotong University，Supervisor：Wei Zhou，Yingjun Zhang
+- **B.S.** — Northwest Normal University， Supervisor： Huifang Ma
 - **Visiting Scholar** — Queen's University Belfast, UK， Supervisor： Hui Wang
 
 <span class='anchor' id='-projects'></span>
@@ -204,6 +204,8 @@ Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 # 🤝 Join Our Group
 
 I am recruiting motivated students interested in Uncertainty Artificial Intelligence, Time Series Analysis, Causal Learning, and Fuzzy Reasoning. Our group focuses on developing intelligent methods for modeling, learning, and reasoning under uncertainty, with applications in complex temporal systems and intelligent transportation. We recruit 2–3 master students every year and welcome outstanding undergraduate students interested in research and graduate studies. Students will receive systematic research training in problem formulation, algorithm design, experimental validation, and academic writing, with opportunities for paper publication, international collaboration, research internships, and further Ph.D. studies. We are looking for students with backgrounds in Computer Science, Artificial Intelligence, Mathematics, or related fields, strong programming skills (Python/Java/C++), good English reading and writing abilities, and a strong passion for research. If you are curious about exploring challenging AI problems and creating new knowledge, please send your CV and transcript via email.
+
+## Now
 
 - **Chenhao Cao** (曹晨昊): First-year graduate student, School of Electronic and Information Engineering, Lanzhou Jiaotong University
 - **Weixuan Xie** (谢炜炫): Second-year undergraduate student, Lanzhou Jiaotong University
