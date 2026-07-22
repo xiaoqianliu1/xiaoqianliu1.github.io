@@ -175,8 +175,10 @@ Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 
 <span class='anchor' id='-education'></span>
 # 🎓 Education
-- **Ph.D.** — Beijing Jiaotong University (北京交通大学)
-- **Visiting Scholar** — Queen's University Belfast, UK
+- **Ph.D.** — Beijing Jiaotong University (北京交通大学)，导师：张英俊，尹辉
+- **M.S.** — Beijing Jiaotong University (北京交通大学)，导师：周围，张英俊
+- **B.S.** — Northwest Normal University (西北师范大学)，导师：马慧芳
+- **Visiting Scholar** — Queen's University Belfast, UK，导师：Hui Wang
 
 <span class='anchor' id='-honors-and-awards'></span>
 # 🏆 Honors and Awards
