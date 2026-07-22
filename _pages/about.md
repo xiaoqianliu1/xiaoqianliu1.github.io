@@ -43,7 +43,7 @@ I am a professional member of ACM and CCF, and serve as a reviewer for prominent
 
 [Sport Field Calibration with NeRF-guided Camera Optimization from a Single Image](https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/papers/Fan_Sport_Field_Calibration_with_NeRF-guided_Camera_Optimization_from_a_Single_CVPRW_2025_paper.pdf)
 
-Fan L, **Liu X**, Roberts M.
+Liang Fan, **Xiaoqian Liu**, Malcolm Roberts
 
 <span style="color: red;">CVPR 2025 (CCF-A)</span>
 
@@ -56,7 +56,7 @@ Fan L, **Liu X**, Roberts M.
 
 [TacticalCalib: End-to-End 6-DoF Camera Pose Regression for Tactical Camera Calibration](https://openaccess.thecvf.com/content/WACV2026/papers/Fan_TacticalCalib_End-to-End_6-DoF_Camera_Pose_Regression_for_Tactical_Camera_Calibration_WACV_2026_paper.pdf)
 
-Fan L, **Liu X**, Chen Z, et al.
+Liang Fan, **Xiaoqian Liu**, Zhi Chen, Lingkai Yang
 
 <span style="color: red;">WACV 2026</span>
 
@@ -69,7 +69,7 @@ Fan L, **Liu X**, Chen Z, et al.
 
 Hybrid Offline-Online Learning of Fuzzy Cognitive Maps for Forecasting Nonstationary Streaming Time Series
 
-**Liu X**, Zhang Y, Wang H, et al.
+**Xiaoqian Liu**, Yingjun Zhang, Hao Wang, Wei Wan, Jun Liu, Bo Cai
 
 <span style="color: red;">IEEE Transactions on Fuzzy Systems, 2026 (SCI Q1)</span>
 
@@ -81,7 +81,7 @@ Hybrid Offline-Online Learning of Fuzzy Cognitive Maps for Forecasting Nonstatio
 
 [Long-term interpretable air quality trend forecasting via directed interval fuzzy cognitive maps](https://ieeexplore.ieee.org/document/10705349)
 
-**Liu X**, Zhang Y, Wang H, et al.
+**Xiaoqian Liu**, Yingjun Zhang, Hao Wang, Shi Qin, Zidong Zhang, Yan Yang, Jing Wang
 
 <span style="color: red;">IEEE Transactions on Fuzzy Systems, 2024 (SCI Q1)</span>
 
@@ -94,7 +94,7 @@ Hybrid Offline-Online Learning of Fuzzy Cognitive Maps for Forecasting Nonstatio
 
 [Learning high-order fuzzy cognitive maps via multimodal artificial bee colony algorithm and nearest-better clustering](https://www.sciencedirect.com/science/article/pii/S0950705124004077)
 
-Li Z, **Liu X**, Zhang Y, et al.
+Zhuofan Li, **Xiaoqian Liu**, Yingjun Zhang, Jiahu Qin, Wei Xing Zheng, Jing Wang
 
 <span style="color: red;">Knowledge-Based Systems, 2024 (SCI Q1)</span>
 
@@ -107,7 +107,7 @@ Li Z, **Liu X**, Zhang Y, et al.
 
 [DAGCRN: Graph convolutional recurrent network for traffic forecasting with dynamic adjacency matrix](https://www.sciencedirect.com/science/article/pii/S0957417423007612)
 
-Shi Z, Zhang Y, Wang J, Qin J, **Liu X**, et al.
+Zhan Shi, Yingjun Zhang, Jing Wang, Jiahu Qin, **Xiaoqian Liu**, Hongzhi Yin, Hai Huang
 
 <span style="color: red;">Expert Systems with Applications, 2023 (SCI Q1)</span>
 
@@ -126,7 +126,7 @@ Shi Z, Zhang Y, Wang J, Qin J, **Liu X**, et al.
 
 [Degradation Dynamic Characteristics and Onboard Identification Model for Layered Stiffness in Ballasted Tracks](https://www.sciencedirect.com/science/article/abs/pii/S0950061826012146)
 
-Xiao Y, Ma C, **Liu X**, et al.
+Yuxuan Xiao, Chao Ma, **Xiaoqian Liu**, Shuo Shi, Yu He, Chen Wang, Qian Tian, Yan Feng, Liang Gao
 
 <span style="color: red;">Construction and Building Materials, 2026</span>
 
@@ -139,7 +139,7 @@ Xiao Y, Ma C, **Liu X**, et al.
 
 Time-series forecasting based on fuzzy cognitive maps and GRU-autoencoder
 
-**Liu X**, Zhang Y, Wang J, et al.
+**Xiaoqian Liu**, Yingjun Zhang, Jing Wang, Jiahu Qin, Hongzhi Yin, Yan Yang, Hai Huang
 
 <span style="color: red;">Soft Computing, 2026</span>
 
@@ -151,87 +151,24 @@ Time-series forecasting based on fuzzy cognitive maps and GRU-autoencoder
 
 Anomaly Detection for Track Dynamic Inspection Data by Information Fusion Attention and TransDetect
 
-Zhang Y, Yin H, **Liu X**, et al.
+Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 
 <span style="color: red;">Signal, Image and Video Processing, 2025</span>
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">自动化学报 2024</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- **自动化学报 2024**, 模糊认知图学习算法及应用综述, 刘晓倩, 张英俊, 秦家虎, 李卓凡, 梁伟玲, 李宗溪
 
-模糊认知图学习算法及应用综述
+- **Information Sciences 2023**, [STCM: A spatio-temporal calibration model for low-cost air monitoring sensors](https://www.sciencedirect.com/science/article/pii/S0020025523008904), Yingjun Zhang, Chunyang Ju, Jiahu Qin, Lei Song, **Xiaoqian Liu**, Wei Sun, Zhuo Li
 
-刘晓倩, 张英俊, 秦家虎, 李卓凡, 梁伟玲, 李宗溪
+- **Applied Soft Computing 2022**, [Towards improved multifactorial particle swarm optimization learning of fuzzy cognitive maps: A case study on air quality prediction](https://www.sciencedirect.com/science/article/pii/S1568494622007779), Weiling Liang, Yingjun Zhang, **Xiaoqian Liu**, Hongzhi Yin, Jing Wang, Yan Yang
 
-<span style="color: red;">自动化学报, 2024</span>
+- **Applied Soft Computing 2022**, [Multi-source and multivariate ozone prediction based on fuzzy cognitive maps and evidential reasoning theory](https://www.sciencedirect.com/science/article/pii/S1568494622000170), **Xiaoqian Liu**, Yingjun Zhang, Jing Wang, Hai Huang, Hongzhi Yin
 
-</div>
-</div>
+- **2019**, 融合语义与图结构的短文本特征提取算法, 马慧芳, **刘晓倩**, 马兰, 伍诗萌
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IS 2023</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[STCM: A spatio-temporal calibration model for low-cost air monitoring sensors](https://www.sciencedirect.com/science/article/pii/S0020025523008904)
-
-Zhang Y, Ju C, Qin J, Song L, **Liu X**, et al.
-
-<span style="color: red;">Information Sciences, 2023</span>
-
-[**Paper**](https://www.sciencedirect.com/science/article/pii/S0020025523008904)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASC 2022</div><img src='images/ASC2022.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Towards improved multifactorial particle swarm optimization learning of fuzzy cognitive maps: A case study on air quality prediction](https://www.sciencedirect.com/science/article/pii/S1568494622007779)
-
-Liang W, Zhang Y, **Liu X**, et al.
-
-<span style="color: red;">Applied Soft Computing, 2022</span>
-
-[**Paper**](https://www.sciencedirect.com/science/article/pii/S1568494622007779)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASC 2022</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Multi-source and multivariate ozone prediction based on fuzzy cognitive maps and evidential reasoning theory](https://www.sciencedirect.com/science/article/pii/S1568494622000170)
-
-**Liu X**, Zhang Y, Wang J, et al.
-
-<span style="color: red;">Applied Soft Computing, 2022</span>
-
-[**Paper**](https://www.sciencedirect.com/science/article/pii/S1568494622000170)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2019</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-融合语义与图结构的短文本特征提取算法
-
-马慧芳, **刘晓倩**, 马兰, 伍诗萌
-
-<span style="color: red;">小型微型计算机系统, 2019</span>
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2018</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-Short Text Feature Extraction via Node Semantic Coupling and Graph Structures
-
-Ma H, **Liu X**, Ma L, Hu Y
-
-<span style="color: red;">International Conference on Intelligent Information Processing, 2018</span>
-
-</div>
-</div>
+- **2018**, Short Text Feature Extraction via Node Semantic Coupling and Graph Structures, Huifang Ma, **Xiaoqian Liu**, Lan Ma, Yong Hu
 
 </div>
 
