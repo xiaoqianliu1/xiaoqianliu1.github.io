@@ -194,6 +194,15 @@ Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 # 🏆 Honors and Awards
 - *2025*: &nbsp;🎉🎉 ACM Lanzhou Chapter Doctoral Dissertation Award
 - Gansu Longyuan Talent Award
+- Outstanding Graduate Student, Beijing Jiaotong University
+- Outstanding Student Leader, Beijing Jiaotong University
+- First-Class Academic Scholarship, Beijing Jiaotong University
+- First Prize, Higher Education Press Cup National Mathematical Modeling Competition
+- Second Prize, 10th Certification Cup Mathematical Modeling Network Challenge Competition
+- First Prize, 1st Shuwei Cup Huaxi Mathematical Modeling Competition
+- Second Prize, 8th Lanqiao Cup Programming Competition
+- Second Prize (Northwest Region), 13th Bocong Cup National Undergraduate Embedded System Design Competition
+- National Inspirational Scholarship
 
 <span class='anchor' id='-service'></span>
 # 📋 Professional Service
