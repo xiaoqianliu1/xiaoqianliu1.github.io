@@ -175,10 +175,10 @@ Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 
 <span class='anchor' id='-education'></span>
 # 🎓 Education
-- **Ph.D.** — Beijing Jiaotong University (北京交通大学)，导师：张英俊，尹辉
-- **M.S.** — Beijing Jiaotong University (北京交通大学)，导师：周围，张英俊
-- **B.S.** — Northwest Normal University (西北师范大学)，导师：马慧芳
-- **Visiting Scholar** — Queen's University Belfast, UK，导师：Hui Wang
+- **Ph.D.** — Beijing Jiaotong University (北京交通大学)，Supervisor：Yingjun Zhang，Hui Yin
+- **M.S.** — Beijing Jiaotong University (北京交通大学)，Supervisor：Wei Zhou，Yingjun Zhang
+- **B.S.** — Northwest Normal University (西北师范大学)， Supervisor： Huifang Ma
+- **Visiting Scholar** — Queen's University Belfast, UK， Supervisor： Hui Wang
 
 <span class='anchor' id='-projects'></span>
 # 📂 Projects
