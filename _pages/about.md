@@ -64,6 +64,63 @@ Fan L, **Liu X**, Chen Z, et al.
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2026</div><img src='images/TFS2026.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Hybrid Offline-Online Learning of Fuzzy Cognitive Maps for Forecasting Nonstationary Streaming Time Series
+
+**Liu X**, Zhang Y, Wang H, et al.
+
+<span style="color: red;">IEEE Transactions on Fuzzy Systems, 2026 (SCI Q1)</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2024</div><img src='images/TFS2024.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Long-term interpretable air quality trend forecasting via directed interval fuzzy cognitive maps](https://ieeexplore.ieee.org/document/10705349)
+
+**Liu X**, Zhang Y, Wang H, et al.
+
+<span style="color: red;">IEEE Transactions on Fuzzy Systems, 2024 (SCI Q1)</span>
+
+[**Paper**](https://ieeexplore.ieee.org/document/10705349)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KBS 2024</div><img src='images/KBS2024.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Learning high-order fuzzy cognitive maps via multimodal artificial bee colony algorithm and nearest-better clustering](https://www.sciencedirect.com/science/article/pii/S0950705124004077)
+
+Li Z, **Liu X**, Zhang Y, et al.
+
+<span style="color: red;">Knowledge-Based Systems, 2024 (SCI Q1)</span>
+
+[**Paper**](https://www.sciencedirect.com/science/article/pii/S0950705124004077)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA 2023</div><img src='images/ESWA2023.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DAGCRN: Graph convolutional recurrent network for traffic forecasting with dynamic adjacency matrix](https://www.sciencedirect.com/science/article/pii/S0957417423007612)
+
+Shi Z, Zhang Y, Wang J, Qin J, **Liu X**, et al.
+
+<span style="color: red;">Expert Systems with Applications, 2023 (SCI Q1)</span>
+
+[**Paper**](https://www.sciencedirect.com/science/article/pii/S0957417423007612)
+</div>
+</div>
+
+<div style="text-align: center; margin-top: 30px;">
+  <a class="view-all-btn" onclick="var x = document.getElementById('all-publications'); if (x.style.display === 'none' || x.style.display === '') { x.style.display = 'block'; this.innerHTML = '▲ Hide All Publications'; } else { x.style.display = 'none'; this.innerHTML = '▼ View All Publications'; }">▼ View All Publications</a>
+</div>
+
+<div id="all-publications" style="display: none; margin-top: 20px;">
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CBM 2026</div><img src='images/CBM2026.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -77,17 +134,107 @@ Xiao Y, Ma C, **Liu X**, et al.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TFS 2024</div><img src='images/TFS2024.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SC 2026</div><img src='images/SC2026.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-IEEE TFS 2024 Publication
+Time-series forecasting based on fuzzy cognitive maps and GRU-autoencoder
 
-**Liu X** et al.
+**Liu X**, Zhang Y, Wang J, et al.
 
-<span style="color: red;">IEEE Transactions on Fuzzy Systems, 2024 (SCI Q1)</span>
+<span style="color: red;">Soft Computing, 2026</span>
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIVP 2025</div><img src='images/SIVP2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Anomaly Detection for Track Dynamic Inspection Data by Information Fusion Attention and TransDetect
+
+Zhang Y, Yin H, **Liu X**, et al.
+
+<span style="color: red;">Signal, Image and Video Processing, 2025</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">自动化学报 2024</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+模糊认知图学习算法及应用综述
+
+刘晓倩, 张英俊, 秦家虎, 李卓凡, 梁伟玲, 李宗溪
+
+<span style="color: red;">自动化学报, 2024</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IS 2023</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[STCM: A spatio-temporal calibration model for low-cost air monitoring sensors](https://www.sciencedirect.com/science/article/pii/S0020025523008904)
+
+Zhang Y, Ju C, Qin J, Song L, **Liu X**, et al.
+
+<span style="color: red;">Information Sciences, 2023</span>
+
+[**Paper**](https://www.sciencedirect.com/science/article/pii/S0020025523008904)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASC 2022</div><img src='images/ASC2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Towards improved multifactorial particle swarm optimization learning of fuzzy cognitive maps: A case study on air quality prediction](https://www.sciencedirect.com/science/article/pii/S1568494622007779)
+
+Liang W, Zhang Y, **Liu X**, et al.
+
+<span style="color: red;">Applied Soft Computing, 2022</span>
+
+[**Paper**](https://www.sciencedirect.com/science/article/pii/S1568494622007779)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASC 2022</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Multi-source and multivariate ozone prediction based on fuzzy cognitive maps and evidential reasoning theory](https://www.sciencedirect.com/science/article/pii/S1568494622000170)
+
+**Liu X**, Zhang Y, Wang J, et al.
+
+<span style="color: red;">Applied Soft Computing, 2022</span>
+
+[**Paper**](https://www.sciencedirect.com/science/article/pii/S1568494622000170)
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2019</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+融合语义与图结构的短文本特征提取算法
+
+马慧芳, **刘晓倩**, 马兰, 伍诗萌
+
+<span style="color: red;">小型微型计算机系统, 2019</span>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">2018</div><img src='images/CVPR2025.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Short Text Feature Extraction via Node Semantic Coupling and Graph Structures
+
+Ma H, **Liu X**, Ma L, Hu Y
+
+<span style="color: red;">International Conference on Intelligent Information Processing, 2018</span>
+
+</div>
+</div>
+
+</div>
+
 
 <span class='anchor' id='-education'></span>
 # 🎓 Education
