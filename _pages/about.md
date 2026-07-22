@@ -20,11 +20,12 @@ I am a professional member of ACM and CCF, and serve as a reviewer for prominent
 
 <span class='anchor' id='-news'></span>
 # 🔥 News
+- *2026.01*: &nbsp;🎉🎉 One paper was accepted by IEEE TFS 2026 (SCI Q1)!
 - *2025.01*: &nbsp;🎉🎉 One paper was accepted by WACV 2026! Look forward to meeting you in Alaska!
-- *2024.12*: &nbsp;🎉🎉 One paper was accepted by CBM 2026!
+- *2024.12*: &nbsp;🎉🎉 One paper was accepted by CBM 2026 (SCI Q1)!
 - *2024.02*: &nbsp;🎉🎉 One paper was accepted by CVPR 2025 (CCF-A)!
 - *2024.01*: &nbsp;🎉🎉 One paper was accepted by IEEE TFS 2024 (SCI Q1)!
-- *2023.06*: &nbsp;🎉🎉 One paper was accepted by KBS 2024!
+- *2023.06*: &nbsp;🎉🎉 One paper was accepted by KBS 2024 (SCI Q1)!
 
 <span class='anchor' id='-research-interests'></span>
 # 🔬 Research Interests
