@@ -70,7 +70,7 @@ Liang Fan, **Xiaoqian Liu**, Zhi Chen, Lingkai Yang
 
 Hybrid Offline-Online Learning of Fuzzy Cognitive Maps for Forecasting Nonstationary Streaming Time Series
 
-**Xiaoqian Liu**, Yingjun Zhang, Hao Wang, Wei Wan, Jun Liu, Bo Cai
+**Xiaoqian Liu**, Yingjun Zhang, Hui Wang, Wenqi Wan, Jiang Liu, Baigen Cai
 
 <span style="color: red;">IEEE Transactions on Fuzzy Systems, 2026 (SCI Q1)</span>
 
@@ -82,7 +82,7 @@ Hybrid Offline-Online Learning of Fuzzy Cognitive Maps for Forecasting Nonstatio
 
 [Long-term interpretable air quality trend forecasting via directed interval fuzzy cognitive maps](https://ieeexplore.ieee.org/document/10705349)
 
-**Xiaoqian Liu**, Yingjun Zhang, Hao Wang, Shi Qin, Zidong Zhang, Yan Yang, Jing Wang
+**Xiaoqian Liu**, Yingjun Zhang, Hui Wang, Sipei Qin, Zhenghua Zhang, Yanyan Yang, Jingping Wang
 
 <span style="color: red;">IEEE Transactions on Fuzzy Systems, 2024 (SCI Q1)</span>
 
@@ -95,7 +95,7 @@ Hybrid Offline-Online Learning of Fuzzy Cognitive Maps for Forecasting Nonstatio
 
 [Learning high-order fuzzy cognitive maps via multimodal artificial bee colony algorithm and nearest-better clustering](https://www.sciencedirect.com/science/article/pii/S0950705124004077)
 
-Zhuofan Li, **Xiaoqian Liu**, Yingjun Zhang, Jiahu Qin, Wei Xing Zheng, Jing Wang
+Zhuofan Li, **Xiaoqian Liu**, Yingjun Zhang, Jiahu Qin, Wei Xing Zheng, Jingping Wang
 
 <span style="color: red;">Knowledge-Based Systems, 2024 (SCI Q1)</span>
 
@@ -108,7 +108,7 @@ Zhuofan Li, **Xiaoqian Liu**, Yingjun Zhang, Jiahu Qin, Wei Xing Zheng, Jing Wan
 
 [DAGCRN: Graph convolutional recurrent network for traffic forecasting with dynamic adjacency matrix](https://www.sciencedirect.com/science/article/pii/S0957417423007612)
 
-Zhan Shi, Yingjun Zhang, Jing Wang, Jiahu Qin, **Xiaoqian Liu**, Hongzhi Yin, Hai Huang
+Zhen Shi, Yingjun Zhang, Jingping Wang, Jiahu Qin, **Xiaoqian Liu**, Hui Yin, Hua Huang
 
 <span style="color: red;">Expert Systems with Applications, 2023 (SCI Q1)</span>
 
@@ -127,7 +127,7 @@ Zhan Shi, Yingjun Zhang, Jing Wang, Jiahu Qin, **Xiaoqian Liu**, Hongzhi Yin, Ha
 
 [Degradation Dynamic Characteristics and Onboard Identification Model for Layered Stiffness in Ballasted Tracks](https://www.sciencedirect.com/science/article/abs/pii/S0950061826012146)
 
-Yuxuan Xiao, Chao Ma, **Xiaoqian Liu**, Shuo Shi, Yu He, Chen Wang, Qian Tian, Yan Feng, Liang Gao
+Yixiong Xiao, Chaozhi Ma, **Xiaoqian Liu**, Shunwei Shi, Yuqiang He, Chunyu Wang, Qikai Tian, Yunda Feng, Liang Gao
 
 <span style="color: red;">Construction and Building Materials, 2026</span>
 
@@ -140,7 +140,7 @@ Yuxuan Xiao, Chao Ma, **Xiaoqian Liu**, Shuo Shi, Yu He, Chen Wang, Qian Tian, Y
 
 Time-series forecasting based on fuzzy cognitive maps and GRU-autoencoder
 
-**Xiaoqian Liu**, Yingjun Zhang, Jing Wang, Jiahu Qin, Hongzhi Yin, Yan Yang, Hai Huang
+**Xiaoqian Liu**, Yingjun Zhang, Jingping Wang, Jiahu Qin, Hui Yin, Yanyan Yang, Hua Huang
 
 <span style="color: red;">Soft Computing, 2026</span>
 
@@ -152,7 +152,7 @@ Time-series forecasting based on fuzzy cognitive maps and GRU-autoencoder
 
 Anomaly Detection for Track Dynamic Inspection Data by Information Fusion Attention and TransDetect
 
-Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
+Yichi Zhang, Hui Yin, **Xiaoqian Liu**, Hua Huang, Xinyang Hou
 
 <span style="color: red;">Signal, Image and Video Processing, 2025</span>
 
@@ -161,15 +161,15 @@ Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 
 - **[自动化学报, 2024]** 模糊认知图学习算法及应用综述. 刘晓倩, 张英俊, 秦家虎, 李卓凡, 梁伟玲, 李宗溪.
 
-- **[Information Sciences, 2023]** [STCM: A spatio-temporal calibration model for low-cost air monitoring sensors](https://www.sciencedirect.com/science/article/pii/S0020025523008904). Yingjun Zhang, Chunyang Ju, Jiahu Qin, Lei Song, **Xiaoqian Liu**, Wei Sun, Zhuo Li. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0020025523008904)
+- **[Information Sciences, 2023]** [STCM: A spatio-temporal calibration model for low-cost air monitoring sensors](https://www.sciencedirect.com/science/article/pii/S0020025523008904). Yingjun Zhang, Chang Ju, Jiahu Qin, Liyan Song, **Xiaoqian Liu**, Wei Sun, Zongxi Li. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0020025523008904)
 
-- **[Applied Soft Computing, 2022]** [Towards improved multifactorial particle swarm optimization learning of fuzzy cognitive maps: A case study on air quality prediction](https://www.sciencedirect.com/science/article/pii/S1568494622007779). Weiling Liang, Yingjun Zhang, **Xiaoqian Liu**, Hongzhi Yin, Jing Wang, Yan Yang. [[Paper]](https://www.sciencedirect.com/science/article/pii/S1568494622007779)
+- **[Applied Soft Computing, 2022]** [Towards improved multifactorial particle swarm optimization learning of fuzzy cognitive maps: A case study on air quality prediction](https://www.sciencedirect.com/science/article/pii/S1568494622007779). Weiling Liang, Yingjun Zhang, **Xiaoqian Liu**, Hui Yin, Jingping Wang, Yanyan Yang. [[Paper]](https://www.sciencedirect.com/science/article/pii/S1568494622007779)
 
-- **[Applied Soft Computing, 2022]** [Multi-source and multivariate ozone prediction based on fuzzy cognitive maps and evidential reasoning theory](https://www.sciencedirect.com/science/article/pii/S1568494622000170). **Xiaoqian Liu**, Yingjun Zhang, Jing Wang, Hai Huang, Hongzhi Yin. [[Paper]](https://www.sciencedirect.com/science/article/pii/S1568494622000170)
+- **[Applied Soft Computing, 2022]** [Multi-source and multivariate ozone prediction based on fuzzy cognitive maps and evidential reasoning theory](https://www.sciencedirect.com/science/article/pii/S1568494622000170). **Xiaoqian Liu**, Yingjun Zhang, Jingping Wang, Hua Huang, Hui Yin. [[Paper]](https://www.sciencedirect.com/science/article/pii/S1568494622000170)
 
 - **[小型微型计算机系统, 2019]** 融合语义与图结构的短文本特征提取算法. 马慧芳, **刘晓倩**, 马兰, 伍诗萌.
 
-- **[IIP, 2018]** Short Text Feature Extraction via Node Semantic Coupling and Graph Structures. Huifang Ma, **Xiaoqian Liu**, Lan Ma, Yong Hu.
+- **[IIP, 2018]** Short Text Feature Extraction via Node Semantic Coupling and Graph Structures. Huifang Ma, **Xiaoqian Liu**, Lan Ma, Yuling Hu.
 
 </div>
 
@@ -203,7 +203,6 @@ Yingjun Zhang, Hongzhi Yin, **Xiaoqian Liu**, Hai Huang, Xiaorong Hou
 - First Prize, 1st Shuwei Cup Huaxi Mathematical Modeling Competition
 - Second Prize, 8th Lanqiao Cup Programming Competition
 - Second Prize (Northwest Region), 13th Bocong Cup National Undergraduate Embedded System Design Competition
-- National Inspirational Scholarship
 
 <span class='anchor' id='-service'></span>
 # 📋 Professional Service
